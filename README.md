@@ -28,19 +28,15 @@ The following libraries are expected to be used in this project:
 The actual data was removed due to terms and conditions of AZ Direct GmbH which prohibits of using data in any other content rather than Udacity course.
 
 ## Results
-Cluster 9 is **overrepresented** in the customers data compared to general population data, we can describe some segments of the population that are **relatively popular** with the mail-order company:
+Cluster 3 is overrepresented in the customers data compared to general population data, we can describe some segments of the population that are relatively popular with the mail-order company as follows :
+People with age older than 60 years old is higher (ALTERSKATEGORIE_GROB = 3.444134) Females (ANREDE_KZ = 1.266893)
 
-- People with age older than 60 years old is higher (ALTERSKATEGORIE_GROB = 3.608463)
-- Females (ANREDE_KZ = 1.535703)
-- People who are socially-minded (average affinity) (SEMIO_SOZ = 3.915283)
-  
-Cluster 8 is **underrepresented** in the customers data compared to general population data, we can illustrate some segments of the population that are **relatively unpopular** with the company:
+Cluster 2 is underrepresented in the customers data compared to general population data, we can illustrate some segments of the population that are relatively unpopular with the company:
 
-- People with age of 30 - 45 years old is lower (ALTERSKATEGORIE_GROB = 1.805549)
-- Females (ANREDE_KZ = 1.981174)
-- People who are socially-minded (high affinity) (SEMIO_SOZ = 3.226965)
+People with age of 46 - 60 years old is lower (ALTERSKATEGORIE_GROB = 2.701163)
+
+Females (ANREDE_KZ = 1.603958)
 
 
 
-**Note:** There is [one iPython notebook](https://github.com/Faisal-AlDhuwayhi/Identify-Customer-Segments/blob/master/Identify_Customer_Segments.ipynb) to showcase work related to this project. The [html file](https://github.com/Faisal-AlDhuwayhi/Identify-Customer-Segments/blob/master/Identify_Customer_Segments.html) was generated from the iPython notebook.
 
